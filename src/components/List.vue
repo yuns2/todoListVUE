@@ -1,6 +1,6 @@
 <template>
 <div>
-    {{ todoList }}
+    <!-- {{ todoList }} -->
     <v-card
         v-for="(list, index) in todoList"
         :key="index"
